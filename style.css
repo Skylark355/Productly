@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", serif;
+  transition: all 0.1s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+body {
+  width: 100vw;
+}
+
+section {
+  padding: 2rem 7%;
+}
+.title {
+  font-size: 4.6rem;
+}
+
+/* header section stars here  */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 7%;
+  /* background-color: #e3e1e1; */
+  backdrop-filter: blur(10px);
+  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); */
+  z-index: 1;
+}
+
+.header .nav-links {
+  margin-left: 33rem;
+}
+
+.header .nav-links a {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: black;
+}
+
+.btn1 {
+  padding: 1.3rem 2.4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+  border: 1px solid rgb(43, 172, 228);
+  border-radius: 5px;
+}
+
+.btn2 {
+  background-color: rgb(236, 140, 30);
+  padding: 1.3rem 2.4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  margin: 0 1.5rem;
+  border-radius: 5px;
+}
+
+/* hearder section ends here  */
+
+/* hero section begins here  */
+
+.hero {
+  padding-top: 100px;
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+  gap: 5rem;
+}
+
+.hero-left {
+  padding: 10rem 0rem;
+  width: 43%;
+}
+
+.hero-left h1 {
+  margin-bottom: 40px;
+}
+
+.hero-left p {
+  font-size: 1.9rem;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.hero-cta {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.btn {
+  background-color: rgb(236, 140, 30);
+  padding: 1.9rem 4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+}
+
+.watch {
+  display: flex;
+}
+
+.hero-cta h3 {
+  font-size: 1.5rem;
+  margin-top: 5px;
+  color: rgb(236, 140, 30);
+  text-decoration: underline;
+}
+
+.hero-cta img {
+  height: 3rem;
+  margin-right: 10px;
+}
+
+.hero-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-right img {
+  height: 45rem;
+}
+
+/* hero section ends here  */
+
+/* product section begins here  */
+.product {
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product .title {
+  text-align: center;
+}
+
+.products {
+  display: flex;
+}
+
+.product-each {
+  margin: 7px;
+  width: 30%;
+  padding: 30px;
+}
+
+.product-each img {
+  margin-left: -20px;
+  height: 8rem;
+}
+
+.product-each h3 {
+  font-size: 2.2rem;
+  line-height: 2;
+  margin-bottom: 5px;
+}
+
+.product-each p {
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+.product-btn {
+  background-color: rgb(236, 140, 30);
+  padding: 1.3rem 2.4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  margin: 0 1.5rem;
+  border-radius: 5px;
+}
+
+/* product section ends here  */
+
+/* customer section stars here  */
+.customer {
+  display: flex;
+  margin-bottom: 7rem;
+}
+
+.customer-left {
+  width: 45%;
+}
+
+.customer-top h4 {
+  font-size: 1.9rem;
+}
+
+.customer-top p {
+  font-size: 1.7rem;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+}
+
+.customer-item h3 {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.customer-item p {
+  font-size: 1.7rem;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+}
+
+.customer-right {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer-right img {
+  height: 57rem;
+}
+
+.customer2 {
+  display: flex;
+}
+
+.customer2-left {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer2-left img {
+  height: 52rem;
+}
+
+.customer2-right {
+  width: 45%;
+}
+
+.customer2-right h4 {
+  font-size: 1.9rem;
+  margin-bottom: 10px;
+}
+
+.customer2-right p {
+  font-size: 1.7rem;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.tick {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.tick p {
+  margin: 0;
+}
+
+/* customer section ends here  */

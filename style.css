@@ -45,7 +45,7 @@ section {
 }
 
 .header .nav-links {
-  margin-left: 33rem;
+  margin-left: 20rem;
 }
 
 .header .nav-links a {
@@ -149,13 +149,17 @@ section {
 .product {
   margin-top: 15rem;
   margin-bottom: 15rem;
+  padding-bottom: 8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(243, 231, 223));
+  border-radius: 0% 0% 40% 40%;
 }
 
 .product .title {
   text-align: center;
+  width: 60%;
 }
 
 .products {
@@ -241,6 +245,7 @@ section {
 
 .customer2 {
   display: flex;
+  margin-bottom: 7rem;
 }
 
 .customer2-left {
@@ -283,3 +288,144 @@ section {
 }
 
 /* customer section ends here  */
+
+/* price section stars here  */
+.price {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgb(243, 231, 223), rgb(255, 255, 255));
+  border-radius: 40% 40% 0 0%;
+  padding-top: 15rem;
+}
+
+.price h1 {
+  margin-bottom: 3rem;
+}
+
+.price p {
+  font-size: 1.7rem;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 5rem;
+}
+
+.price-btn {
+  background-color: rgb(236, 140, 30);
+  padding: 1.9rem 4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+}
+
+/* price section ends here  */
+
+/* resources section begins here  */
+
+.resources {
+  margin-bottom: 15rem;
+}
+.resources h1 {
+  margin-bottom: 2rem;
+}
+
+.resources P {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+.resources-items {
+  display: flex;
+  gap: 3rem;
+}
+
+.resources-item img {
+  margin-bottom: 1rem;
+}
+
+.resources-item {
+  width: 30%;
+}
+
+.resources-item h2 {
+  font-size: 2rem;
+}
+
+.resources-item span {
+  font-weight: 700;
+}
+/* resources section ends here  */
+
+/* footer section begins here  */
+.footer {
+  margin-bottom: 2rem;
+}
+
+.footer hr {
+  border: 1px solid rgb(232, 230, 230);
+}
+
+.footer-items {
+  display: flex;
+  gap: 15rem;
+}
+
+.footer-logo {
+  margin-top: 7rem;
+}
+
+.footer-item1 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.footer-item1 h4 {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.footer-item1 p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.footer-item1 a {
+  color: black;
+}
+
+.footer-item2 {
+  margin-top: 7rem;
+  width: 25%;
+}
+
+.footer-item2 h4 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-item2 input {
+  width: 80%;
+  padding: 10px;
+  font-size: 1.5rem;
+  color: rgb(43, 172, 228);
+  margin-bottom: 3rem;
+}
+.footer-btn {
+  background-color: rgb(236, 140, 30);
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+}
+
+.footer-bottom {
+  display: flex;
+  gap: 70rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+/* footer section ends here  */

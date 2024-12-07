@@ -16,10 +16,6 @@ html {
   scroll-padding-top: 7rem;
 }
 
-body {
-  width: 100vw;
-}
-
 section {
   padding: 2rem 7%;
 }
@@ -38,9 +34,7 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 2rem 7%;
-  /* background-color: #e3e1e1; */
   backdrop-filter: blur(10px);
-  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); */
   z-index: 1;
 }
 
@@ -429,3 +423,305 @@ section {
   font-size: 1.5rem;
 }
 /* footer section ends here  */
+
+/* media queries starts from here  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* navbar */
+  body {
+    width: 100%;
+  }
+  .header {
+    padding-top: 5rem;
+  }
+  .header .nav-links {
+    display: none;
+  }
+
+  .header .cta {
+    display: none;
+  }
+
+  .header .logo img {
+    height: 8rem;
+  }
+
+  /* hero section begins here  */
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+  }
+
+  .hero-left h1 {
+    text-align: center;
+  }
+
+  .hero-left p {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+
+  .hero-cta {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .btn {
+    background-color: rgb(236, 140, 30);
+    padding: 1.9rem 4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .watch {
+    display: flex;
+  }
+
+  .hero-cta h3 {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    color: rgb(236, 140, 30);
+    text-decoration: underline;
+  }
+
+  .hero-cta img {
+    height: 3rem;
+    margin-right: 10px;
+  }
+
+  .hero-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-right img {
+    height: 45rem;
+  }
+}
+
+@media (min-width: 1281px) {
+  .hero-left {
+    width: 50%;
+  }
+
+  .hero-left h1 {
+    font-size: 4.5rem;
+    width: 100%;
+  }
+  .footer-bottom {
+    gap: 60rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .header .nav-links {
+    margin: 0;
+  }
+
+  .header .nav-links a {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+  }
+
+  .hero-left {
+    width: 55%;
+  }
+
+  .hero-left h1 {
+    font-size: 4.5rem;
+    width: 100%;
+  }
+
+  .hero-right img {
+    height: 43rem;
+  }
+
+  .product {
+    margin-top: 10rem;
+  }
+  .product .title {
+    width: 70%;
+  }
+
+  .product-each {
+    padding: 0px;
+  }
+
+  /* customer section stars here  */
+
+  .customer-top {
+    gap: 3rem;
+  }
+  .customer-top h1 {
+    font-size: 3.7rem;
+  }
+
+  .customer-right img {
+    height: 47rem;
+  }
+
+  .customer2 {
+    gap: 3rem;
+  }
+
+  .customer2 h1 {
+    font-size: 3.7rem;
+  }
+
+  .customer2-left img {
+    height: 47rem;
+  }
+
+  .customer2-right {
+    width: 50%;
+  }
+
+  .customer2-right h4 {
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+  }
+
+  .customer2-right p {
+    font-size: 1.7rem;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .tick {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+
+  .tick p {
+    margin: 0;
+  }
+
+  /* footer section begins here  */
+  .footer-items {
+    display: flex;
+    gap: 8rem;
+  }
+
+  .footer-bottom {
+    gap: 40rem;
+  }
+  /* footer section ends here  */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .header .nav-links {
+    margin: 0;
+  }
+
+  .header .nav-links a {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+  }
+
+  .hero-left {
+    width: 55%;
+  }
+
+  .hero-left h1 {
+    font-size: 4.5rem;
+    width: 100%;
+  }
+
+  .hero-right img {
+    height: 43rem;
+  }
+
+  .product {
+    margin-top: 10rem;
+  }
+  .product .title {
+    width: 70%;
+  }
+
+  .product-each {
+    padding: 0px;
+  }
+
+  /* customer section stars here  */
+
+  .customer-top {
+    gap: 3rem;
+  }
+  .customer-top h1 {
+    font-size: 3.7rem;
+  }
+
+  .customer-right img {
+    height: 47rem;
+  }
+
+  .customer2 {
+    gap: 3rem;
+  }
+
+  .customer2 h1 {
+    font-size: 3.7rem;
+  }
+
+  .customer2-left img {
+    height: 47rem;
+  }
+
+  .customer2-right {
+    width: 50%;
+  }
+
+  .customer2-right h4 {
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+  }
+
+  .customer2-right p {
+    font-size: 1.7rem;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .tick {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+
+  .tick p {
+    margin: 0;
+  }
+
+  /* footer section begins here  */
+  .footer-items {
+    display: flex;
+    gap: 8rem;
+  }
+
+  .footer-bottom {
+    gap: 40rem;
+  }
+  /* footer section ends here  */
+  
+}

@@ -1297,6 +1297,8 @@ section {
 
   .product-btn {
     margin-top: 5rem;
+    text-align: center;
+    width: fit-content
   }
 
   /* Customer Section */
@@ -1343,6 +1345,10 @@ section {
   .price p {
     font-size: 1.5rem;
     width: 80%;
+  }
+
+  .price-btn{
+    width: fit-content;
   }
 
   /* Resources Section */

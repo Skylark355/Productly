@@ -608,7 +608,7 @@ section {
     display: none;
   }
   .sidebar {
-    /* display: none; */
+    display: none;
   }
 
   .hamburger {
@@ -939,7 +939,7 @@ section {
 
   .sidebar {
     width: 100%;
-    display: block;
+    display: none;
   }
 
   .header .cta {
@@ -1179,17 +1179,19 @@ section {
     font-size: 1.7rem;
     margin: 2rem 0;
     color: black;
+    /* display: none; */
   }
 
   .sidebar {
     width: 100%;
-    display: block;
+    display: none;
   }
 
   .header .cta {
     margin-top: 4rem;
     width: 100%;
     display: flex;
+    /* display: none; */
   }
 
   .header .logo {

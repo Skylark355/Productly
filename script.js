@@ -17,3 +17,4 @@ navItems.forEach((item) => {
 });
 
 // hamburger codes ends here
+

@@ -726,6 +726,9 @@ section {
 
   /* Resources Section */
 
+  .price h1{
+    text-align: center;
+  }
   .resources p {
     font-size: 1.5rem;
     text-align: justify;
@@ -1373,6 +1376,10 @@ section {
   .price-btn {
     font-size: 1.3rem;
     width: fit-content;
+  }
+
+  .price h1{
+    text-align: center;
   }
 
   /* Resources Section */
